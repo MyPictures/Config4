@@ -1,0 +1,18 @@
+checkname: Direction
+version: 1.0
+description: A check that forces the players to look at the blocks that they want to break.
+author: asofold
+website: http://dev.bukkit.org/bukkit-plugins/nocheatplus/
+
+loadbefore:
+ -
+harddepend:
+ - TickTask
+ - DataManager
+softdepend:
+ -
+ 
+active: true
+actions:
+ cl>10: cancel
+ cl>100: cancel 
