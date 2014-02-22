@@ -1,0 +1,18 @@
+checkname: Example
+version: 1.0
+description: Example check.
+author: asofold
+website: http://dev.bukkit.org/bukkit-plugins/nocheatplus/
+
+loadbefore:
+ -
+harddepend:
+ - TickTask
+ - DataManager
+softdepend:
+ -
+ 
+active: true
+actions:
+ cl>10: cancel
+ cl>100: cancel 
